@@ -11,6 +11,7 @@
 		D6C0860A29CF18E80057E5E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0860929CF18E80057E5E7 /* ContentView.swift */; };
 		D6C0860C29CF18E90057E5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C0860B29CF18E90057E5E7 /* Assets.xcassets */; };
 		D6C0860F29CF18E90057E5E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C0860E29CF18E90057E5E7 /* Preview Assets.xcassets */; };
+		D6C0861629CF1B670057E5E7 /* PrefectureListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C0861529CF1B670057E5E7 /* PrefectureListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D6C0860929CF18E80057E5E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6C0860B29CF18E90057E5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C0860E29CF18E90057E5E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C0861529CF1B670057E5E7 /* PrefectureListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D6C0860729CF18E80057E5E7 /* Kadai11_SwiftUIApp.swift */,
 				D6C0860929CF18E80057E5E7 /* ContentView.swift */,
+				D6C0861529CF1B670057E5E7 /* PrefectureListView.swift */,
 				D6C0860B29CF18E90057E5E7 /* Assets.xcassets */,
 				D6C0860D29CF18E90057E5E7 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C0860A29CF18E80057E5E7 /* ContentView.swift in Sources */,
+				D6C0861629CF1B670057E5E7 /* PrefectureListView.swift in Sources */,
 				D6C0860829CF18E80057E5E7 /* Kadai11_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
