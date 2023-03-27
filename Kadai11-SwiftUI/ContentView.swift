@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingModal = false
+    @State private var selectedPrefecture = "未選択"
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack(spacing: 50) {
+                Text("都道府県")
+                Text(selectedPrefecture)
+                Button("変更"){
+                    self.showingModal.toggle()
+                }
+                .fullScreenCover(isPresented: $showingModal) {
+                    PrefectureListView(prefecture: $selectedPrefecture)
+                }
+            }
+            .padding(40)
+            Spacer()
         }
-        .padding()
     }
 }
 
