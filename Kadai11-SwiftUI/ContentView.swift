@@ -17,14 +17,14 @@ struct ContentView: View {
                 Text("都道府県")
                 Text(selectedPrefecture)
                 Button("変更"){
-                    self.showingModal.toggle()
-                }
-                .fullScreenCover(isPresented: $showingModal) {
-                    PrefectureListView(prefecture: $selectedPrefecture)
+                    showingModal = true
                 }
             }
             .padding(40)
             Spacer()
+        }
+        .fullScreenCover(isPresented: $showingModal) {
+            PrefectureListView(prefecture: $selectedPrefecture)
         }
     }
 }
