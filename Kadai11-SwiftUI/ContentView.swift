@@ -17,7 +17,7 @@ struct ContentView: View {
                 Text("都道府県")
                 Text(selectedPrefecture)
                 Button("変更"){
-                    self.showingModal.toggle()
+                    showingModal = true
                 }
                 .fullScreenCover(isPresented: $showingModal) {
                     PrefectureListView(prefecture: $selectedPrefecture)
