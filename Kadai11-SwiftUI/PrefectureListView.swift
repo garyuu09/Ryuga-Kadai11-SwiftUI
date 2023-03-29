@@ -30,9 +30,13 @@ struct PrefectureListView: View {
             .listStyle(.plain)
             .navigationTitle("都道府県")
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(trailing: Button("Cancel") {
-                dismiss()
-            })
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Cancel") {
+                        dismiss()
+                    }
+                }
+            }
         }
     }
 }
